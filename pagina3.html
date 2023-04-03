@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style>
+        body{
+          background-color: rgb(68, 68, 68);
+          background-image: url("https://eikonos.com/wp-content/uploads/2015/03/edicion-de-video.png");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+        .section1 {
+          color: #fff;
+          text-shadow: 3px 2px 4px rgb(0, 0, 0);
+          margin-top: 20px;
+        }
+        .section1 h1 {
+          font-weight: bold;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .btn-primary {
+          background-color: #ffc107;
+          border-color: #ffc107;
+        }
+        #img1{
+          margin-left: 70px;
+        }
+        #img2{
+          margin-left: 30px;
+        }
+        #img3{
+          margin-left: 70px;
+        }
+        video{
+          margin-left: 300px;
+        }
+    </style>
+</head>
+<body>
+  <!-- NavBar Título -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Índice</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pagina1.html">Página 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina2.html">Página 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="pagina3.html" tabindex="-1" aria-disabled="true">Página 3</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Info -->
+      <main>
+        <section class="section1">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <h1 class="display-4">Servicio de Edición de Videos</h1>
+                <p class="lead">¡Hola! Soy un editor de video con una gran pasión por contar historias a través de imágenes. Si estás buscando un profesional que pueda llevar tus ideas al siguiente nivel, ¡has venido al lugar correcto!.</p>
+                <hr class="my-4">
+                <p class="lead">Estamos dedicados a brindarte el mejor servicio y atención personalizada</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Conoce más</a>
+              </div>
+              <div class="col-md-4">
+                <img src="https://cdn-icons-png.flaticon.com/512/3698/3698647.png" alt="" height="300px" width="auto" id="img1">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section1">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <h2 class="display-4">Experiencia y Certificaciones</h2>
+                <p class="lead">Soy un editor de video con más de 10 años de experiencia en la industria y estoy aquí para ofrecer mis servicios para ayudar a que tus videos luzcan mejor que nunca.</p>
+                <p class="lead">La edición de video es mi pasión y me dedico a ella con mucho entusiasmo y compromiso. He trabajado en diferentes proyectos, desde videos musicales hasta videos corporativos y de bodas, lo que me ha brindado la oportunidad de adquirir habilidades y conocimientos en todas las etapas del proceso de edición de video.</p>
+                <p class="lead">Tengo un certificado en edición de video y estoy siempre actualizando mis habilidades para mantenerme a la vanguardia en el campo de la edición de video. Esto me permite ofrecer una amplia gama de servicios de edición de video, desde la edición básica hasta la edición avanzada, pasando por la corrección de color y la postproducción de audio.</p>
+                <p class="lead">Entiendo que cada proyecto de video es único, por lo que ofrezco un servicio personalizado y estoy siempre en contacto con mis clientes para asegurarme de que sus necesidades se cumplan al 100%.</p>
+                <p class="lead">Además, ofrezco una rápida entrega del proyecto para que no tengas que esperar demasiado para tener tu video editado y listo para ser utilizado.</p>
+              </div>
+              <div class="col-md-4">
+                <img src="https://edteam-media.s3.amazonaws.com/speciality-certificates/original/4bde6fca-f8e0-403e-b6a3-2ccc3de74d33.png" alt="" height="300px" width="auto" class="mt-5" id="img2">
+                <img src="https://www.diplomadosonline.com/wp-content/uploads/2021/10/Edicion-de-Videos-con-Adobe-Premiere-Pro.jpg" alt="" height="250px" width="auto" class="mt-5 mb-5" id="img3">
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="embed-responsive embed-responsive-16by9">
+          <video class="embed-responsive-item" src="https://www.youtube.com/watch?v=3-ZUKKwlAZs" controls height="600px" width="900px"></video>
+        </div>
+      </main>
+</body>
+</html>

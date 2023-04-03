@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style>
+        body{
+          background-image: url(https://fondosmil.com/fondo/39742.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        p{
+          color: white;
+          display: inline-flex;
+        }
+        ul{
+          color: white;
+        }
+        .p1{
+          height: auto;
+          width: 75%;
+          display: inline-block; 
+          margin: 0 auto;
+          text-align: left;
+          background-color: rgb(17, 48, 77);
+        }
+        .p2{
+          background-color: rgb(72, 135, 148);
+          text-align: right;
+        }
+        .p3{
+          background-color: rgb(54, 22, 85);
+        }
+        #h1{
+          background-color: rgb(55, 47, 47);
+          margin-bottom: 10px;
+        }
+        h1{
+          margin-left: 20px;
+        }
+        #img1{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        #sidebar{
+          background-image: url(https://w0.peakpx.com/wallpaper/732/342/HD-wallpaper-abstract-black-blue-dark-lines-stripes-textures-vertical.jpg);
+        }
+        #sidelink{
+          color: whitesmoke;
+          text-align: center;
+          margin-top: 10px;
+        }
+        #navitem{
+          margin-bottom: black 10px;
+        }
+    </style>
+</head>
+<body>
+  <!-- NavBar Titulo -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Índice</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="pagina1.html">Página 1</a>
+            </li>
+            <li class="nav-item" id="navitem">
+              <a class="nav-link" href="pagina2.html">Página 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pagina3.html" tabindex="-1" aria-disabled="true">Página 3</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Contenido -->
+    <div class="row">
+      <!-- NavBar Costado -->
+      <div class="col-md-2" id="sidebar">
+        <nav class="sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" id="sidelink" href="#h1">¿Qué es GIT?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="sidelink" href="#h2">Características principales</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- Info -->
+      <div class="col-md-10">
+        <div class="p-3 text-light" id="h1">
+          <h1>¿Qué es GIT?</h1>
+        </div>
+        <div class="col-auto text-center">
+          <div class="p-3 border border-dark border-4 fs-5 mb-4 p1">
+            <div class="row">
+            <div class="col-8">
+              <p>Git es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad. Los desarrolladores confirman su trabajo localmente y, a continuación, sincronizan su copia del repositorio con la copia en el servidor. Este paradigma es distinto del control de versiones centralizado, donde los clientes deben sincronizar el código con un servidor antes de crear nuevas versiones.</p>
+            </div>
+            <div class="col-4" id="img1">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png" alt="" height="100px" width="auto">
+            </div>
+            </div>
+          </div>
+          <div class="p-3 border border-dark border-4 fs-5 mb-4 p1 p2">
+            <div class="row">
+            <div class="col-4" id="img1">
+              <img src="https://www.w3docs.com/uploads/media/default/0001/03/7951296c8fc2c5d0c986993684993064aef3dfa9.png" alt="" height="260px" width="auto">
+            </div>
+            <div class="col-8">
+              <p id="p2">La flexibilidad y popularidad de Git hacen que sea una excelente opción para cualquier equipo. Muchos desarrolladores y graduados universitarios ya saben cómo usar Git. La comunidad de usuarios de Git ha creado recursos para entrenar a desarrolladores y la popularidad de Git facilita la ayuda cuando sea necesario. Casi todos los entornos de desarrollo tienen compatibilidad con Git y las herramientas de línea de comandos de Git implementadas en cada sistema operativo principal.</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-3 text-light" id="h1">
+          <h1 id="h2">Características principales</h1>
+        </div>
+        <div class="col-auto text-center">
+          <div class="p-3 border border-dark border-4 fs-5 mb-4 p1 p3">
+            <div class="row">
+            <div class="col-8">
+              <p>Entre las características más importantes que Git nos brinda son:</p>
+              <ul>
+                <li>Nos proporciona un listado de los archivos llamados Commits, con la fecha en que se modifica el archivo.</li>
+                <li>Tener un control de versiones de los cambios realizados en los archivos de un proyecto.</li>
+                <li>Poder restablecer los cambios, volver atrás en el tiempo.</li>
+                <li>Crear Ramas o Branches.</li>
+                <li>Realizar un mezclado de cambios entre los integrantes que llevan a cabo el Desarrollo del Proyecto.</li>
+              </ul>
+            </div>
+            <div class="col-4" id="img1">
+              <img src="https://www.acens.com/comunicacion/wp-content/images/2015/07/git-github-wp-acens-11.png" alt="" height="300px" width="auto">
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
